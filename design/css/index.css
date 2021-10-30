@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list{
+    font-size: 18px;
+    margin-left: 224px;
+
+}
+.logo a{
+    margin-left: 102px;
+    font-style: initial;
+    font-weight: 900;
+    font-family: serif;
+}
+/* .carousel-inner{
+    height: 540px;
+} */
+.carousel-inner  img {
+    width:640px;
+    height: 600px;
+  }
