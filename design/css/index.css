@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Poppins:ital,wght@0,100;0,200;1,100;1,200&family=Roboto+Slab:wght@600;700;900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -12,12 +14,49 @@
     margin-left: 102px;
     font-style: initial;
     font-weight: 900;
-    font-family: serif;
+    font-family: 'Irish Grover', cursive;
 }
-/* .carousel-inner{
-    height: 540px;
-} */
+
 .carousel-inner  img {
     width:640px;
     height: 600px;
   }
+
+  /* kannur discription section styling (first black div) */
+
+  .kannur-discription{
+    height: 150vh;
+    width: 100%;
+    border-bottom-right-radius: 360px;
+  }
+  
+ 
+  .map{
+    height: 317px;
+        margin-top: 246px;
+        padding-left: 132px;
+        float: left;
+}
+    .disc{
+        float: right;
+        margin-right: 272px;
+        margin-top: 111px;
+        margin-left: 145px;
+    }
+    .kannur-txt {
+        font-size: 108px;
+        font-weight: bolder;
+    }
+    
+    .kannur-sub{
+        letter-spacing: 7px;
+        margin-bottom: -22px;
+    }
+    .discription{
+        display: flex;
+        overflow: hidden;
+    }
+    .k{
+        font-size: 46px;
+    }
+  /* kannur discription section styling (first black div) */
