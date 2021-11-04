@@ -1,9 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Poppins:ital,wght@0,100;0,200;1,100;1,200&family=Roboto+Slab:wght@600;700;900&display=swap');
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
+
+
 
 .nav-list{
     font-size: 18px;
@@ -17,6 +19,55 @@
     font-family: 'Irish Grover', cursive;
 }
 
+/* navbar dropdown styling */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content li{
+list-style: none;
+}
+.dropdown-content li:hover{
+  background-color: yellow;
+  border: solid red 1px;
+  border-radius: 10px;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+/* navbar dropdown styling */
+
+
+
+
 .carousel-inner  img {
     width:640px;
     height: 600px;
@@ -28,24 +79,29 @@
     height: 150vh;
     width: 100%;
     border-bottom-right-radius: 360px;
+    background-color: black;
   }
-  
+  .about-kannur{
+      font-size: 20px;
+  }
  
   .map{
     height: 317px;
-        margin-top: 246px;
-        padding-left: 132px;
-        float: left;
+     margin-top: 187px;
+        /* padding-left: 70px; */
+        /* float: left; */
 }
     .disc{
-        float: right;
-        margin-right: 272px;
-        margin-top: 111px;
-        margin-left: 145px;
+        /* float: right; */
+        /* margin-right: 272px; */
+        margin-top: 184px;
+        /* margin-left: 145px; */
+        
     }
     .kannur-txt {
-        font-size: 108px;
+        font-size: 90px;
         font-weight: bolder;
+        
     }
     
     .kannur-sub{
@@ -60,3 +116,127 @@
         font-size: 46px;
     }
   /* kannur discription section styling (first black div) */
+
+
+  
+/* place details styling here */
+.find-dest{
+    margin-bottom: 100px;
+    font-family: 'Ceviche One', cursive;
+    border: solid 2px red;
+}
+.find-dest:hover{
+  background-color: red;
+  color: white;
+}
+.button-places-discription{
+    border: solid red 1px;
+    background-color: red;
+    color: white;
+    margin-left: 25%;
+}
+.button-places-discription:hover{
+    background-color: transparent;
+    color: red;
+   
+ 
+}
+
+.card:hover{
+  background-color:seashell;
+  border: solid 1px grey;
+ 
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* place details styling here */
+
+/* owl carousel styling */
+
+/* owl carousel styling */
+  /*----  Main Style  ----*/
+#cards_landscape_wrap-2{
+    text-align: center;
+    background: #F7F7F7;
+    border-top-right-radius: 1000px;
+    padding-top: 10px;
+  }
+  #cards_landscape_wrap-2 .container{
+    padding-top: 80px; 
+    padding-bottom: 100px;
+  }
+  #cards_landscape_wrap-2 a{
+    text-decoration: none;
+    outline: none;
+  }
+  #cards_landscape_wrap-2 .card-flyer {
+    border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box{
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .image-box img{
+    -webkit-transition:all .9s ease; 
+    -moz-transition:all .9s ease; 
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease; 
+    width: 100%;
+    height: 200px;
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+    opacity: 0.7;
+    -webkit-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.15);
+    transform:scale(1.15);
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box{
+    text-align: center;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+    padding: 30px 18px;
+  }
+  #cards_landscape_wrap-2 .card-flyer{
+    background: #FFFFFF;
+    margin-top: 50px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover{
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 50px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box h6{
+    margin-top: 0px;
+    margin-bottom: 4px; 
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1px;
+    color: #00acc1;
+  }
