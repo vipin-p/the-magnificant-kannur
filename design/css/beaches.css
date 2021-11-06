@@ -1,0 +1,263 @@
+*{
+    background-color:white;
+    padding: 0%;
+    margin: 0%;
+   
+}
+ /* main image at the top of the page styling */
+.image-mainsea{
+    height: 65vh;
+    width: 100%;
+}
+ /* main image at the top of the page styling */
+
+
+/* muzhapilangad section styling */
+.muzha-image{
+    height: 364px;
+    width: 458px;
+    margin-top:190px;
+    margin-top:70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+    
+}
+.muzha-image:hover{
+    transform: scale(1.2);
+    
+}
+/* muzhapilangad section styling */
+
+.muzha-image2{
+    margin-top: 177px;
+        margin-left: 189px;
+        width: 299px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 20px 70px 20px 70px ;
+
+}
+.muzha-image2:hover{
+    transform: scale(1.2);
+}
+.muzha-disc{
+    margin-top: 50px;
+}
+.muzha-disc:hover{
+    border: 2px solid black;
+    color: green;
+}
+/* muzhapilangad section styling */
+
+/* payyambalam styling */
+.payyambalam-img{
+    margin-top: 174px;
+    width: 435px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+
+
+}
+.payyambalam-img:hover{
+    transform: scale(1.2);
+}
+.payya-disc{
+    margin-top: 170px;
+}
+.payya-disc:hover{
+    border: 2px solid black;
+    color: green;
+}
+.payyambalam-img2{
+    margin-top: 137px;
+    height: 294px;
+    margin-left: 98px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(165, 98, 98, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+
+
+}
+.payyambalam-img2:hover{
+    transform: scale(1.2);
+
+}
+/* payyambalam styling */
+/* baby beach styling */
+.baby-beach{
+    margin-top: 141px;
+    width: 416px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+
+
+
+    }
+    .baby-beach:hover{
+        transform: scale(1.2);
+
+    }
+.baby-beach2{
+    margin-top: 100px;
+        margin-left: 22px;
+        width: 503px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 20px 70px 20px 70px ;
+
+    }
+    .baby-beach2:hover{
+        transform: scale(1.2);
+   
+    }
+    .baby-beach-disc{
+        margin-top: 130px;
+    }
+    .baby-beach-disc:hover{
+        border: 2px solid black;
+        color: green;
+    }
+
+/* baby beach styling */
+/* ezhara beach styling */
+.ezharabeach-1{
+    height: 388px;
+    margin-left: 144px;
+    margin-top: 175px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+
+
+}
+.ezharabeach-1:hover{
+    transform: scale(1.2);
+
+}
+
+.ezhara-disc{
+    margin-top: 141px;
+}
+.ezhara-disc:hover{
+    border: 2px solid black;
+    color: green;
+}
+/* ezhara beach styling */
+/* meenkunnu styling */
+.meenkunnu1{
+    margin-top: 126px;
+    width: 508px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+
+
+    }
+    .meenkunnu1:hover{
+        transform: scale(1.2);
+
+    }
+
+.meenkunnu2{
+    margin-top: 197px;
+    width: 494px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+
+
+}
+.meenkunnu2:hover{
+    transform: scale(1.2);
+
+}
+.meenkunnu-disc{
+    margin-top: 126px;
+}
+.meenkunnu-disc:hover{
+    border: 2px solid black;
+    color: green;
+}
+/* meenkunnu styling */
+
+/* ettikulam styling */
+.ettikulam-disc{
+    margin-top:90px;
+}
+.ettikulam-disc:hover{
+    border: 2px solid black;
+    color: green;
+}
+
+.ettikulam-img{
+    margin-top: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+
+
+}
+.ettikulam-img:hover{
+    transform: scale(1.2);
+
+}
+/* ettikulam styling */
+/* chal beach styling */
+.chal-img{
+    margin-top: 150px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+
+
+}
+.chal-img:hover{
+    transform: scale(1.2);
+
+}
+.chal-disc{
+    margin-top: 100px;
+}
+.chal-disc:hover{
+    border: 2px solid black;
+    color: green;
+}
+/* chal beach styling */
+/* thottada beach image */
+.thottadabeach-image{
+    margin-top: 159px;
+    margin-left: 181px;
+    height: 281px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+
+
+}
+.thottadabeach-image:hover{
+    transform: scale(1.2);
+
+}
+.thottada-disc{
+    margin-top:159px ;
+}
+.thottada-disc:hover{
+    border: 2px solid black;
+    color: green;
+}
+/* thottada beach image */
+
+/* chootad section styling */
+.chootad-img{
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+
+
+}
+.chootad-img:hover{
+    transform: scale(1.2);
+
+}
+.chootad-disc{
+    margin-top: 80px;
+}
+.chootad-disc:hover{
+    border: 2px solid black;
+    color: green;
+}
+/* chootad section styling */
