@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.devpage-mainimg{
+    height: 500px;
+    width: 100%;
+}
+.dev-images{
+    margin-top: 150px;
+    margin-left: 100px;
+    height:250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 70px 20px 70px ;
+}
+.dev-disc{
+    margin-top: 150px;
+    margin-left: 25px;
+}
+.dev-images:hover{
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.dev-disc:hover{
+    border: 2px solid brown;
+    color: green;
+}

@@ -4,84 +4,84 @@
     margin: 0;
     font-family: 'Raleway', sans-serif;
     
+    
 }
-
-
-
-.nav-list{
-    font-size: 18px;
-    margin-left: 224px;
-
-}
-.logo a{
-    margin-left: 102px;
-    font-style: initial;
-    font-weight: 900;
-    font-family: 'Irish Grover', cursive;
-}
-
-/* navbar dropdown styling */
-.dropbtn {
-  background-color: transparent;
+/* .navbar{
+  background-color: violet;
   color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+} */
+
+/* carousel styling */
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+/* carousel styling */
+
+
+
+
+
+/* dropdown styling */
+.dropdown-toggle {
+  /* width: 200px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+ background-color: transparent;
+ border: 0;
+
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.dropdown-toggle:focus {
+  box-shadow: none !important
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
+
+
+.dropdown-menu {
+  width: 200px;
+  border: 2px solid #F44336;
+  padding: 0rem 0;
+  transform: translate3d(0px, 50px, 0px) !important
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #ffffff;
+  background-color: #dc3545;
+  padding: 12px
+}
+
+.dropdown-item {
   display: block;
+  width: 100%;
+  padding: 12px
 }
-.dropdown-content li{
-list-style: none;
+/* dropdown styling */
+
+
+
+
+/* kannur discription section styling (first black div) */
+
+.kannur-discription{
+  height: 150vh;
+  width: 100%;
+  border-bottom-right-radius: 1000px;
+ 
+
 }
-.dropdown-content li:hover{
-  background-color: yellow;
-  border: solid red 1px;
-  border-radius: 10px;
-}
 
-
-.dropdown:hover .dropdown-content {display: block;}
-
-
-
-
-/* navbar dropdown styling */
-
-
-
-
-.carousel-inner  img {
-    width:640px;
-    height: 600px;
-  }
-
-  /* kannur discription section styling (first black div) */
-
-  .kannur-discription{
-    height: 150vh;
-    width: 100%;
-    border-bottom-right-radius: 360px;
-    background-color: black;
-  }
+  
   .about-kannur{
       font-size: 20px;
   }
@@ -89,16 +89,9 @@ list-style: none;
   .map{
     height: 317px;
      margin-top: 187px;
-        /* padding-left: 70px; */
-        /* float: left; */
+     margin-left: 95px;
+
 }
-    .disc{
-        /* float: right; */
-        /* margin-right: 272px; */
-        margin-top: 184px;
-        /* margin-left: 145px; */
-        
-    }
     .kannur-txt {
         font-size: 90px;
         font-weight: bolder;
@@ -109,12 +102,12 @@ list-style: none;
         letter-spacing: 7px;
         margin-bottom: -22px;
     }
-    .discription{
-        display: flex;
-        overflow: hidden;
-    }
+  
     .k{
         font-size: 46px;
+    }
+    .kannur-disc{
+      margin-top: 147px;
     }
   /* kannur discription section styling (first black div) */
 

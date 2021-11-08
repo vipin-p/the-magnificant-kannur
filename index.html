@@ -22,250 +22,127 @@
 
 <body>
 
-  <!-- header section starts here -->
 
-
-
-  <section class=" header bg-primary">
+  <!--================================== header section================================= -->
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-      <div class="row">
-        <div class="col">
-          <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
-      <div class="logo text-white">
-        <i> <a class="navbar-brand text-white" href="#">Kannur <span class="text-warning h4">Diaries</span></a></i>    
-           <!-- <i class="fa fa-bicycle" aria-hidden="true"></i> -->  
- 
-      </div>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">Kannur Diaries</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="  collapse navbar-collapse" id="navbarNav">
-        <ul class="nav-list  navbar-nav">
-          <li class="nav-item active"> <b><a class="nav-link text-white" href="#">Home </a></b> </li>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
 
-
-          <!-- dropdown in the nav bar starts here -->
-
-         <li> <div class="dropdown">
-            <button class="dropbtn"><b>Places</b> </button>
-            <div class="dropdown-content">
-              <ul>
-                <li>
-             <a href="#beach-dropdown">Beaches</a>
-
-                </li>
-                <li>
-                  <a href="#devotional-dropdown">Devotional</a> 
-
-                </li>
-                <li>
-             <a href="#hill-dropdown">HillStations</a>
-
-                </li>
-                <li>
-             <a href="#waterfalls-dropdown">Waterfalls</a> 
-
-                </li>
-                <li>
-             <a href="#other-dropdown">OtherPlaces</a> 
-
-                </li>
-              </ul>
-              
-            </div>
+          <div class="dropdown">
+            <button class="  dropdown-toggle"  data-bs-toggle="dropdown" >
+              Places
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#beach-dropdown">Beaches</a></li>
+              <li><a class="dropdown-item" href="#devotional-dropdown">Devotional</a></li>
+              <li><a class="dropdown-item" href="#hill-dropdown">Hills</a></li>
+              <li><a class="dropdown-item" href="#waterfalls-dropdown">Waterfalls</a></li>
+              <li><a class="dropdown-item" href="#other-dropdown">Others</a></li>
+            </ul>
           </div>
-        </li>
-          <!-- dropdown in the nav bar ends here -->
 
-
-
-
-          <li class="nav-item"> <a class="nav-link text-white" href="#shopping-nav">Shopping</a> </li>
-          <li class="nav-item"> <a class="nav-link text-white " href="#travel-nav">TravelMethods</a> </li>
-          <li class="nav-item"> <a class="nav-link text-white " href="#emergency-nav">EmergencyServices</a> </li>
-          <li class="nav-item"> <a class="nav-link text-white " href="#hospitals-nav">Hospitals</a> </li>
-          <li class="nav-item"> <b><a class="nav-link text-white " href="#">ContactUs</a></b> </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
         </ul>
       </div>
-    </nav>
-        </div>
-      </div>
     </div>
-    
-  </section>
-  <!-- header section ends here -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- carousel section stars here -->
-  <section>
-    <div class="row">
-      <div class="col bd-example">
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-          </ol>
-          <div class="carousel-inner">
-            <!-- first carousel slide is herer -->
-            <div class="carousel-item active">
-              <img src="design/assets/2palakkayam-thattu4.jpg.image.784.410_20180526203513.jpg" class="d-block w-100"
-                alt="...">
-              <div class="carousel-caption mb-5">
-                <h5>Explore The Beauty Of Nature</h5>
-                <p><i class="fa fa-quote-left text-warning" aria-hidden="true"></i> In nature, nothing is perfect and
-                  everything is perfect. ... <i class="fa fa-quote-right text-warning" aria-hidden="true"></i></p>
-              </div>
-            </div>
-            <!-- first carousel slide is herer -->
-
-            <!-- second carousel slide is herer -->
-
-            <div class="carousel-item ">
-              <img src="design/assets/driving beach.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption mb-5">
-                <h5>Crazy Beach Ride</h5>
-                <p><i class="fa fa-quote-left text-warning" aria-hidden="true"></i>Happiness is a day at the beach...<i
-                    class="fa fa-quote-right text-warning" aria-hidden="true"></i></p>
-              </div>
-            </div>
-            <!-- second carousel slide is herer -->
-
-            <!-- third carousel slide is herer -->
-
-            <div class="carousel-item">
-              <img src="design/assets/vismaya-water-park.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption mb-5">
-                <h5>Untie your Soul Into Enjoyment</h5>
-                <p><i class="fa fa-quote-left text-warning" aria-hidden="true"></i>Life is like a roller coaster...<i
-                    class="fa fa-quote-right text-warning" aria-hidden="true"></i></p>
-              </div>
-            </div>
-            <!-- third carousel slide is herer -->
-
-            <!-- fourth carousel slide is herer -->
-
-            <div class="carousel-item">
-              <img src="design/assets/parassini.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption mb-5">
-                <h5>Refresh Your Mind With Divinity</h5>
-                <p><i class="fa fa-quote-left text-warning" aria-hidden="true"></i>The temple is holy because it is not
-                  for sale...<i class="fa fa-quote-right text-warning" aria-hidden="true"></i></p>
-              </div>
-            </div>
-            <!-- fourth carousel slide is herer -->
-
-            <!-- fifth carousel slide is herer -->
-
-            <div class="carousel-item">
-              <img src="design/assets/KANNUR-FORT.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption mb-5">
-                <h5>Recall The Historical Memmories</h5>
-                <p><i class="fa fa-quote-left text-warning" aria-hidden="true"></i>Following the light of the sun, we
-                  left the Old World...<i class="fa fa-quote-right text-warning" aria-hidden="true"></i></p>
-              </div>
-            </div>
-            <!-- fifth carousel slide is herer -->
-
-            <!-- sixth carousel slide is herer -->
-
-            <div class="carousel-item">
-              <img src="design/assets/theyyam.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption mb-5">
-                <h5>Feel The Culture</h5>
-                <p><i class="fa fa-quote-left text-warning" aria-hidden="true"></i>Cultural differences should not
-                  separate us from each other, but rather cultural diversity brings a collective strength that can
-                  benefit all of humanity.<i class="fa fa-quote-right text-warning" aria-hidden="true"></i></p>
-              </div>
-            </div>
-            <!-- sixth carousel slide is herer -->
-
-
+  </nav>
+  
+  <header>
+  
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('design/assets/2palakkayam-thattu4.jpg.image.784.410_20180526203513.jpg')">
+          <div class="carousel-caption">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+        </div>
+        <div class="carousel-item" style="background-image: url('design/assets/KANNUR-FORT.jpg')">
+          <div class="carousel-caption">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('design/assets/parassini.jpg')">
+          <div class="carousel-caption">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </section>
-  <!-- carousel section stars here -->
-
-
+  </header>
+  <!--================================== header section================================= -->
+  
   <!--=================== kannur discription and map here============= -->
+ <span >
 
-  <section class="kannur-discription ">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <!-- the image of the kannr map is  -->
-
-          <div class="image">
-            <img src="design/assets/kannur.png" alt="" class="map ">
-          </div>
-          <!-- the image of the kannr map is  -->
-
-        </div>
-        <div class="col">
-          <div class="discription">
-            <!-- =========discription about kannur will be here=========== -->
-            <div class="disc">
-              <p class="text-white kannur-sub">Welcom To The <span class="text-muted">MAGNIFICANT </span></p>
-              <h1 class="kannur-txt text-warning"> KANNUR</h1>
-              <p class=" text-success coordinates">
-                <i class="fa fa-compass text-white" aria-hidden="true"></i> COORDINATES : 11.8745° N, 75.3704° E <br>
-                ELEVATION FROM SEA LEVEL : 1.02 M <br>
-                POPULATION : 2.32 lakhs (2011) <br><br>
-              </p>
-              <p class="about-kannur  text-danger">
-                <i class="fa fa-quote-left text-warning" aria-hidden="true"></i> <span
-                  class="k text-warning">K</span>annur is best known for its temples' Theyyam performances.
-                This exquisite art form is an important element of the culture of
-                this district in Northern Kerala. Marco Polo dubbed it a "Great-
-                Emporium Of Spice Trade" after it was renamed Cannanore.
-                Kannur has been acclaimed as a powerful maritime port since
-                the dawn of time. According to legend, it has had interactions
-                and commercial links with the rest of the globe since King
-                Solomon's time, including the Greeks, Arabs, and Romans. It
-                has numerous forts, temples, beaches, and wildlife reserves that
-                attract visitors on a regular basis. Throughout the year, major
-                festivals and events are organised, making this one of the best spots
-                in Kerala to spend your vacation. <i class="fa fa-quote-right text-warning" aria-hidden="true"> </i>
-
-              </p>
-            </div>
-            <!--============== discription about kannur will be here===================== -->
-          </div>
-        </div>
-      </div>
+<div class=" container-fluid bg-black  ">
+  <div class="row ">
+    <div class="col">
+      <img src="design/assets/kannur.png" alt="" class="map">
     </div>
-  </section>
+    <div class="col kannur-disc">
+      <p class="text-white kannur-sub">Welcom To The <span class="text-muted">MAGNIFICANT </span></p>
+      <h1 class="kannur-txt text-warning"> KANNUR</h1>
+      <p class=" text-success coordinates">
+        <i class="fa fa-compass text-white" aria-hidden="true"></i> COORDINATES : 11.8745° N, 75.3704° E <br>
+        ELEVATION FROM SEA LEVEL : 1.02 M <br>
+        POPULATION : 2.32 lakhs (2011) <br><br>
+      </p>
+      <p class="about-kannur  text-white">
+        <i class="fa fa-quote-left text-warning" aria-hidden="true"></i> <span
+          class="k text-warning">K</span>annur is best known for its temples' Theyyam performances.
+        This exquisite art form is an important element of the culture of
+        this district in Northern Kerala. Marco Polo dubbed it a "Great-
+        Emporium Of Spice Trade" after it was renamed Cannanore.
+        Kannur has been acclaimed as a powerful maritime port since
+        the dawn of time. According to legend, it has had interactions
+        and commercial links with the rest of the globe since King
+        Solomon's time, including the Greeks, Arabs, and Romans. It
+        has numerous forts, temples, beaches, and wildlife reserves that
+        attract visitors on a regular basis. Throughout the year, major
+        festivals and events are organised, making this one of the best spots
+        in Kerala to spend your vacation. <i class="fa fa-quote-right text-warning" aria-hidden="true"> </i>
+
+      </p>
+    </div>
+  </div>
+</div>
 
 
 
 
+
+ </span>
   <!--=================== kannur discription and map here============= -->
 
 
@@ -280,9 +157,7 @@
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
+ 
 
 
 
@@ -294,74 +169,70 @@
 
 
 
-
-
-
-
-
-
-
-  <section class="place-details">
-    <h1 class="find-dest text-center ">Find your Destinations Here</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-
-          <div class="card" style="width: 14rem;">
-            <img id="beach-dropdown" class="card-img-top" src="design/assets/driving beach.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Beaches...</h5>
-              <a href="beaches.html" class="btn button-places-discription">Explore-></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 14rem;">
-            <img id="devotional-dropdown " class="card-img-top" src="design/assets/parassini-cardimage.jpg"
-              alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Devotional...</h5>
-              <a href="#" class="btn button-places-discription">Explore-></a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 14rem;">
-            <img id="hill-dropdown" class="card-img-top" src="design/assets/paithal-sample.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Hills...</h5>
-              <a href="#" class="btn button-places-discription">Explore-></a>
-            </div>
+<section class="place-details">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+    
+        <div class="card" style="width: 14rem;">
+          <img id="beach-dropdown" class="card-img-top" src="design/assets/driving beach.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Beaches...</h5>
+            <a href="beaches.html" class="btn button-places-discription">Explore-></a>
           </div>
         </div>
       </div>
-      <br><br>
-      <!--============================== second row starts here===================== -->
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: 14rem;">
-            <img id="waterfalls-dropdown" class="card-img-top" src="design/assets/waterfalls-card.jpg"
-              alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Waterfalls...</h5>
-              <a href="#" class="btn button-places-discription ">Explore-></a>
-            </div>
+      <div class="col">
+        <div class="card" style="width: 14rem;">
+          <img id="devotional-dropdown " class="card-img-top" src="design/assets/parassini-cardimage.jpg"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Devotional...</h5>
+            <a href="devotional.html" class="btn button-places-discription">Explore-></a>
           </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 14rem;">
-            <img id="other-dropdown" class="card-img-top" src="design/assets/vismaya-card.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Others...</h5>
-              <a href="#" class="btn button-places-discription btn-primary">Explore-></a>
-            </div>
-          </div>
-
         </div>
       </div>
-      <!--============================== second row starts here===================== -->
-
+      <div class="col">
+        <div class="card" style="width: 14rem;">
+          <img id="hill-dropdown" class="card-img-top" src="design/assets/paithal-sample.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Hills...</h5>
+            <a href="#" class="btn button-places-discription">Explore-></a>
+          </div>
+        </div>
+      </div>
     </div>
+          
+          <br><br>
+          <!--============================== second row starts here===================== -->
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 14rem;">
+                <img id="waterfalls-dropdown" class="card-img-top" src="design/assets/waterfalls-card.jpg"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Waterfalls...</h5>
+                  <a href="#" class="btn button-places-discription ">Explore-></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 14rem;">
+                <img id="other-dropdown" class="card-img-top" src="design/assets/vismaya-card.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Others...</h5>
+                  <a href="#" class="btn button-places-discription btn-primary">Explore-></a>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+          <!--============================== second row starts here===================== -->
+    
+        </div>
+  </div>
+    
+ 
   </section>
 
   <!-- deatails about places starts here  -->
