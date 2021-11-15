@@ -40,19 +40,18 @@
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
           </li>
-
-          <div class="dropdown">
-            <button class="  dropdown-toggle"  data-bs-toggle="dropdown" >
-              Places
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#beach-dropdown">Beaches</a></li>
-              <li><a class="dropdown-item" href="#devotional-dropdown">Devotional</a></li>
-              <li><a class="dropdown-item" href="#hill-dropdown">Hills</a></li>
-              <li><a class="dropdown-item" href="#waterfalls-dropdown">Waterfalls</a></li>
-              <li><a class="dropdown-item" href="#other-dropdown">Others</a></li>
-            </ul>
-          </div>
+<li class="nav-item">
+  <div class="dropdown">
+  <button class="dropbtn">Places</button>
+  <div class="dropdown-content">
+  <a href="#beach-dropdown">Beaches</a>
+  <a href="#devotional-dropdown">Devotional places</a>
+  <a href="#hill-dropdown">hillstations</a>
+  <a href="#waterfalls-dropdown">Waterfalls</a>
+  <a href="#other-dropdown">OtherPlaces</a>
+  </div>
+</div>
+</li>
 
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -107,7 +106,7 @@
 
 <div class=" container-fluid bg-black  ">
   <div class="row ">
-    <div class="col">
+    <div class="col-sm-6">
       <img src="design/assets/kannur.png" alt="" class="map">
     </div>
     <div class="col kannur-disc">
@@ -174,7 +173,7 @@
     <div class="row">
       <div class="col">
     
-        <div class="card" style="width: 14rem;">
+        <div class="card m-3 mb-3" style="width: 14rem;">
           <img id="beach-dropdown" class="card-img-top" src="design/assets/driving beach.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Beaches...</h5>
@@ -183,7 +182,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card" style="width: 14rem;">
+        <div class="card m-3" style="width: 14rem;">
           <img id="devotional-dropdown " class="card-img-top" src="design/assets/parassini-cardimage.jpg"
             alt="Card image cap">
           <div class="card-body">
@@ -193,11 +192,11 @@
         </div>
       </div>
       <div class="col">
-        <div class="card" style="width: 14rem;">
+        <div class="card m-3" style="width: 14rem;">
           <img id="hill-dropdown" class="card-img-top" src="design/assets/paithal-sample.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Hills...</h5>
-            <a href="#" class="btn button-places-discription">Explore-></a>
+            <a href="hillstations.html" class="btn button-places-discription">Explore-></a>
           </div>
         </div>
       </div>
@@ -206,18 +205,18 @@
           <br><br>
           <!--============================== second row starts here===================== -->
           <div class="row">
-            <div class="col">
+            <div class="col m-3 ">
               <div class="card" style="width: 14rem;">
                 <img id="waterfalls-dropdown" class="card-img-top" src="design/assets/waterfalls-card.jpg"
                   alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Waterfalls...</h5>
-                  <a href="#" class="btn button-places-discription ">Explore-></a>
+                  <a href="waterfalls.html" class="btn button-places-discription ">Explore-></a>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card" style="width: 14rem;">
+              <div class="card m-3" style="width: 14rem;">
                 <img id="other-dropdown" class="card-img-top" src="design/assets/vismaya-card.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title">Others...</h5>
