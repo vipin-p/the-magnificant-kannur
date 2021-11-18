@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- image in the title tag -->
+    <link rel="shortcut icon"
+        href="data:image/jpeg;base64,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"
+        type="image/x-icon">
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- fontawesom link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    
+    
+    <!-- custom css link -->
+    <link rel="stylesheet" href="design/css/others.css">
+</head>
+<body>
+    <section>
+        <div class="other-mainimg">
+            <img src="design/assets/other places/watertheampark.jpg" alt="" class="others-img img-fluid">
+        </div>
+
+        <div class="container">
+           <div class="row">
+                <div class="col">
+                    <img src="design/assets/other places/stangelo-fort others.jfif"
+                        alt="" class="other-img">
+                </div>
+                <div class="vr"></div>
+          
+                <div class="col other-disc">
+                    <h1>St. Angelo Fort</h1>
+                    <hr>
+                    <p>This surviving historical monument known as St Angelo Fort, sometimes known as Kannur Fort, offers visitors a trip
+                    through the centuries. The imperial walls of this fort, which were built by the Portuguese Viceroy, Don Francesco de
+                    Almeida, in 1505 CE, practically carry the annals of trade, colonialism, and wars. The Dutch took this fort in 1663 CE,
+                    made some changes, and eventually sold it to Ali Raja of the Arakkal dynasty. In 1790 CE, the British seized the fort
+                    and utilised it as a military station. The Archaeology Survey of India currently protects the fort.The fort was erected in a triangular shape utilising laterite stones and a surkhi [brick dust] mixture. Three
+                    magnificent and massive bastions, a lighthouse, cannons, barracks, and tombstones are among the fort's significant
+                    features. Walking along the fort's walls, you can't help but be impressed by the breathtaking views of the natural
+                    harbour, Mapilla Bay, and the lesser-known but fascinating Dharmadam island near Thalassery. <br> <b>Visiting Hours: 08.00 am to 06.00 pm <br>Coordinates:11.8541° N, 75.3714° E</b></p>
+                </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <img src="design/assets/other places/light house.jfif" alt="" class="other-img">
+               </div>
+               <div class="vr"></div>
+               <div class="col other-disc">
+                   <h1>Kannur light house</h1>
+                   <hr>
+                   <p>The lighthouse in Kannur is the first lighthouse built in Kerala, standing at a height of 75 feet. The building, which
+                dates back to 1903, has both historical and cultural significance. The vantage point provides stunning and awe-inspiring
+                views of Kannur's entire district, the Arabian Sea's immense extent, and the Baby Beach.
+                
+                The viewer will be enchanted by the beautiful scenery, and the feeling of the wind on your face at the highest point
+                will leave you gasping for air. In the evenings, tourists can take a leisurely stroll around the well-kept gardens and
+                watch the fascinating water fountain show. <br> <b>Distance: 2.6 km from Kannur bus stand
+                
+                Timings: 9 AM to 6 PM, every day</b> </p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <img src="design/assets/other places/mappilabay.jfif" alt="" class="other-img">
+               </div>
+               <div class="vr"></div>
+               <div class="col other-disc">
+                <h1>Mappila Bay</h1>
+                <hr>
+                <p>Mappila Bay (also known as Moppila Bay) is a natural harbour near Ayikkara, Kannur Municipal Corporation, Kerala,
+                India.Fort St. Angelo, built by the Portuguese in the 15th century on one side of the harbour, and the Arakkal Palace on
+                the other.
+                
+                During the Kolathiri's rule, the bay was well-known as a commercial port that transported goods between Kolathunadu and
+                Lakshadweep and other countries.Without a doubt, Mappila Bay is a beautiful tourist destination. Unfortunately, it is currently more of a fishing port
+                than a tourist attraction.
+                
+                This natural harbour, which is separated from the Kannur or St. Angelo's Fort, comes after the beaches. Another
+                interesting site to see is the Arakkal Palace. Both of these sites are remnants of Portuguese conquests, however they
+                are now uninhabited. The Ali Raja Royal dynasty, Kerala's only local royal family until today, owned the Arakkal Palace.
+                The royal family still owns the palace, which has been converted into a museum that is open to the public for a small
+                price. Apart from that, this location is ideal for picnics and as a lookout point. <br> <b>How to reach:The bay is located at Ayikkara, 3 kilometres from Kannur town. Reaching here from town is easy. The best option is to
+                hire one of the Auto-Rickshaws whizzing around.</b></p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <img src="design/assets/other places/mappilabay.jfif" alt="" class="other-img">
+               </div>
+               <div class=" vr"></div>
+               <div class="col other-disc">
+                <h1>Madayipara</h1>
+                <hr>
+                <p>Madayipara is a stunning laterite plateau that tells a different storey with each season's brilliant hues. Colors abound
+                in this breathtaking scene. While rain blankets the area in a lush green blanket, Summer delivers the sun's colours, and
+                Spring transforms it into a sea of blue.
+                
+                This hillock in Kannur district, which covers 700 acres, is a mix of natural beauty and historical significance. It also
+                boasts an ancient fort, the Madayi Fort, built by the Vallabha King of the Kolothu dynasty, and a Jew pond, which
+                contains the remnants of the ancient Jew settlers.
+                
+                
+                
+                Madayipara is an ecological haven, home to a diverse range of vegetation and fauna. It features a unique assortment of plants that consume insects. It also has a pond in the shape of a portable mirror, as
+                well as hundreds of bird and butterfly species.
+                
+                
+                The location also has religious importance. The Madayi Kavu, which holds the Pooram festival, as well as the Vadukunda
+                Shiva Temple, make this a popular pilgrimage site. <br> <b>Location:Pazhayangadi, Kerala  <br> Coordinates:12.0323° N, 75.2567° E</b></p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <img src="https://www.keralatourism.org/images/destination/large/dharmadam_island_thalassery20131127120636_89_1.jpg" alt="" class="other-img">
+               </div>
+               <div class="vr"></div>
+               <div class="col other-disc">
+                <h1>Dharmadam Island</h1>
+                <hr>
+                <p>Dharmadom Island, located about 100 metres from Dharmadom Beach's immaculate shoreline, has become a popular destination
+                for travellers looking for a peaceful and tranquil picnic place. This isolated island is surrounded on three sides by
+                mainland rivers and the sea on the other by a canopy of coconut palms and dense shrubs. It is only accessible at low
+                tide, and strolls around the area provide a spectacular view of the Anjarakandy and Thalassery Rivers confluence.Dharmadam Island (Green Island) is a 2-hectare private island in Kerala's Thalassery district. Dharmadam is roughly 100
+                metres from the mainland. The island, which is surrounded by lush shrubbery and coconut palms, can be seen from
+                Muzhappilangad beach, where permitted visitors can walk out to the island during low tide. Dharmadam was previously
+                known as Dharmapattanam.
+                
+                This area was taken over by the Kerala government for tourism development in 1998.
+                
+                Dharmadam is about 4 kilometres from Thalassery. <br> <b>Coordinates:11° 46′ 11.28″ N, 75° 27′ 1.8″ E</b></p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <img src="design/assets/other places/telichery fort.jfif" alt="" class="other-img">
+               </div>
+               <div class="vr"></div>
+               <div class="col other-disc">
+                   <h1>Tellicherry Fort</h1>
+                   <hr>
+                   <p>The Thalassery Fort is a strong historical structure built by the East India Company to demonstrate the imperial rulers'
+                power. It stands proudly in Thalassery, a little town 22 kilometres from Kannur's northern district. The fort was built
+                in 1703 by the East India Company, which had previously established its settlement on the Malabar Coast in 1683, and was
+                once the heart of Thalassery's development. Enormous walls, massive, artistically carved doors, and secret tunnels
+                leading to the sea make the stunning square fort a joy to explore. <br> <b>Address: Near Thalassery New Bus Stand Kanyakumari, Panvel Highway, Pilakool, Thalassery, Kerala 670103 <br>Coordinates:11.748292°N 75.486134°E</b></p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <img src="design/assets/other places/snake park.jfif" alt="" class="other-img">
+               </div>
+               <div class="vr"></div>
+               <div class="col other-disc">
+                <h1>Parassinikkadavu Snake Park</h1>
+                <hr>
+                <p>The Parassinkkadavu Snake Park is located in Anthoor Municipality in the Kannur district of north Kerala, India, around
+                16 kilometres (9.9 miles) from Kannur Corporation. The Snake Park is located at Parassinikkadavu, around 2 kilometres
+                (1.2 miles) from NH 17 on the way from Kannur to Taliparamba.The park is home to a number of snakes and other tiny animals, including the Spectacled Cobra, King Cobra, Russell's
+                viper, Krait, and a number of pit vipers. A huge collection of non-venomous snakes, including pythons, is also on
+                display. The park is dedicated to the preservation and conservation of snakes, which are rapidly going extinct in many
+                species. In a live presentation, trained individuals play with and 'interact' with a variety of snakes, including cobras
+                and vipers, in an attempt to dispel myths and superstitions surrounding snakes. [requires citation] It has also been
+                suggested that a laboratory be established here to harvest venom from snakes for research purposes. <br><b>Address: Parassinikkadavu - Mayyil Rd, Dharmasala, Parassinikadavu, Kerala 670563</b></p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <img src="design/assets/other places/aralam monkey.jpg" alt="" class="other-img">
+               </div>
+               <div class="vr"></div>
+               <div class="col other-disc">
+                <h1>Aralam Wildlife Sanctuary</h1>
+                <hr>
+                <p>Aralam Wildlife Sanctuary is located in Kerala, southwest India, and is the state's northernmost wildlife sanctuary. It
+                is situated on the western slope of the Western Ghats and covers an area of 55 km2 (21 sq mi). It was founded in 1984.
+                The sanctuary's headquarters are close to Iritty. Aralam Wildlife Sanctuary is located in Kannur District's southeast
+                corner. It is located between the latitudes of 11° 54′ and 11° 59′ north and the longitudes of 75° 47′ and 75° 57′ east.
+                
+                The sanctuary is located on the northwest slopes of the Western Ghats, adjacent to the forests of Karnataka's Coorg
+                (Kodagu) district, and falls in the revenue villages of Aralam, Kelakam, and Kottiyoor. <br>Trekking @ Aralam
+                
+                Day visit to the sanctuary is the standard activity here, but the place also offers interestingly trekking opportunities
+                like trek to Ambalappara, or to Meenmutty falls. Ambalappara trek is over three days \where overnight stay will be at
+                Ambalappara watchtower. The Meenmutty is a one-day package and you will be taking to the waterfalls in a jeep along with
+                a guide. To know more about Aralam Trekking, visit <br><b>Contact Address:
+                The Wildlife Warden
+                Aralam Wildlife Division
+                Iritty P.O
+                Phone: +91 490 2493160
+                Mobile:9447979101
+                E-mail: ww-aralam@forest.kerala.gov.in
+                Website: www.aralam.com
+                
+                Getting there
+                Nearest railway station: Thalassery, about 55 km away
+                
+                Nearest airport: Kannur International Airport, about 40 km | Calicut International Airport, about 96 km from Thalassery
+                town</b></p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                <img src="design/assets/other places/arakkal museum.jfif" alt="" class="other-img">
+               </div>
+               <div class="vr"></div>
+               <div class="col other-disc">
+                <h1>Arakkal Museum</h1>
+                <hr>
+                <p>The Arakkal Museum is a museum in Kerala, India, dedicated to the Arakkal family, Kerala's sole Muslim royal line. The
+                Arakkalkettu Museum is a portion of the Arakkalkettu (Arakkal Royal Palace). The Kerala government has turned the durbar
+                hall area of the palace into a museum. After a Rs. 9,000,000 restoration, it reopened in July 2005.
+                
+                The Arakkalkettu is still owned by the Arakkal Royal Trust and is not under the supervision of the country's
+                archaeological department, the Archaeological Survey of India, despite the government's renovations. The government had
+                taken a particular interest in maintaining the Arakkal family's heritage, which had played a significant role in the
+                country's history. <br> <b>Address: Ayikkara Government Hospital Road, Ayikkara, near District Hospital, Kannur, Kerala 670013</b></p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                <img src="design/assets/other places/neeliyarkottam.jfif" alt="" class="other-img">
+               </div>
+               <div class="vr"></div>
+               <div class="col other-disc">
+                <h1>Neeliyar Kottam</h1>
+                <hr>
+                <p>Neeliyar Kottam is a sacred grove located at Mangattuparamba near Dharmasala in Kannur district, Kerala, India. The
+                Cheriya Veedu family of the Kulala community currently controls this sacred grove, which spans 20.18 acres.The deity here is Neeliyamma or Kottathamma (Mother of the Grove). Neeli, a clever and beautiful woman, was changed into
+                a violent demon after a local king betrayed and murdered her, according to legend. But she took on a motherly aspect
+                after a man mistook her for a loving mother.  On his way back from Kottiyoor, the Goddess was accompanied by a priest of
+                Kalikattu illam. Goddess then requested to be erected in this jungle site where leopards and livestock coexisted
+                peacefully.The jungle environs are still preserved at eeliyar Kottam. It has no roof over its sanctum. The Goddess favours the
+                Neeliyar Kottam grooves anytime a devotee makes a sacrifice, even though the ceremonial Theyyam performance is performed
+                elsewhere. The Theyyam costume consists of a 20-foot bamboo-framed headdress and traditional Theyyam accessories, as
+                well as huge blood-red garments. Vannan community artists perform the Neeliyar Bhagavathi or Ottathira Theyyam. <br><b>Address: Ozhacrome Road, Dharmasala, Mangattuparamba, Kerala 670567 <br> Coordinates:11.9850° N, 75.3636° E</b></p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <img src="design/assets/other places/folklore.jfif" alt="" class="other-img">
+               </div>
+               <div class="vr"></div>
+               <div class="col other-disc">
+                <h1>Kerala Folklore Academy</h1>
+                <hr>
+                <p>The Kerala Folklore Academy is a support organisation for all of Kerala's folk performers. This academy maintains its
+                folk music and dance expertise in as pristine a state as possible in a world of changing fashions and rising art forms.
+                
+                Among the highlights are:
+                
+                Getting a close look at the brightly coloured traditional costumes
+                Seeing a genuine folk performance
+                If you're lucky, the artists will let you peek behind the scenes at their make-up routines, which is a rare treat in and
+                of itself! <br><b>How do I get in touch with Kerala Folklore Academy?
+                Puthiyatheru Bus Stop is a bus stop in Puthiyatheru.
+                Hire a taxi or a rickshaw from Chirakkal Railway Station. <br>Address: Kizhakke Kovilakam, Chirakkal, Kannur, Kerala 670011</b> </p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <img src="design/assets/other places/gundart benglow.jpg" alt="" class="other-img">
+               </div>
+               <div class="vr"></div>
+               <div class="col other-disc">
+                   <h1>Gundert Bungalow</h1>
+                   <hr>
+                   <p>Dr Herman Gundert, a famous German missionary, scholar, and lexicographer, lived in Gundert Bungalow and made
+                significant contributions to the Malayalam language. Dr. Gundert spent two decades in the bungalow at Illikkunnu, in the
+                Thalassery suburbs.
+                
+                Dr. Gundert was a key figure in the creation of the first Malayalam dictionary in 1859, as well as the first Malayalam
+                newspaper, Rajyasamacharam, which was followed by Paschimodayam. He worked long and hard on his dream projects while he
+                was staying at this bungalow. In 1839, he opened a school in the structure.
+                
+                Wide verandas, massive doors, and other hallmarks of a classic colonial palace can be found in this large bungalow. It
+                is, however it is its history more than its architecture that attracts visitors. <br><b>Address: QF9J+37J, Koduvally, Thalassery, Kerala 670101</b></p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <img src="design/assets/other places/other vismaya image.jfif" alt="" class="other-img">
+               </div>
+               <div class="vr"></div>
+               <div class="col other-disc">
+                <h1>Vismaya Amusement Park</h1>
+                <hr>
+                <p>Vismaya is a water theme park in Kannur, Kerala, near Taliparamba. Malabar Tourism Development Co-operative Limited is
+                in charge of the park's development and operation (MTDC). It is located near Parassinikadavu's famed Muthappan temple.
+                It was first opened to the public in August 2008, and it has since become one of Malabar's most popular vacation spots.
+                The park is entirely run on rainwater collected in a reservoir that spans two acres (0.81 hectares) of land and holds
+                50,000,000 L (11,000,000 imp gal; 13,000,000 US gal) of water.Virtual waterfall and Laser show are the two main attractions of this amusement park. Virtual waterfall is a musical
+                waterfall where the visitors dance under the water stream to the background music. This crowd puller is open everyday
+                starting 2 pm and usually ends by 3 pm. Laser shows are usually staged in the evening, and are a major attraction. <br> <b>Location Parassinikadavu, Kannur, Kerala, India</b></p>
+               </div>
+           </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+</html>
