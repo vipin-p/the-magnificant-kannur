@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@300&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Montagu Slab', serif;
+
 }
 .wterfalls-main{
      width: 100%;
